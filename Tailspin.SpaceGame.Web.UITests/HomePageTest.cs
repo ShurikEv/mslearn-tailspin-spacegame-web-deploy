@@ -14,8 +14,8 @@ namespace UITests
     [TestFixture("Edge")]
     public class HomePageTest
     {
-        private string browser;
-        private IWebDriver driver;
+        private string browser; // название текущего браузера
+        private IWebDriver driver; // интерфейс программирования, который используется для запуска веб-браузера и взаимодействия с содержимым веб-страницы
 
         public HomePageTest(string browser)
         {
